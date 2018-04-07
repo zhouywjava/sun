@@ -1,0 +1,12 @@
+server:
+  port: 8081
+eureka:
+  instance:
+    appname: sun
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone : http://192.168.1.104:8080/eureka
+spring:
+  application:
+    name: sun
